@@ -1,3 +1,4 @@
+
 import { Link } from "expo-router";
 import { View } from "react-native";
 
@@ -11,9 +12,8 @@ export default function Index(){
         }}
         >
 
-            <link href="/sign-in">Sign In</link>
-            <link href="/sign-in">Explore</link>
-            <link href="/sign-in">profile</link>
+            <Link href="/sign-in">Sign In</Link>
+        
 
         </View>
     )
